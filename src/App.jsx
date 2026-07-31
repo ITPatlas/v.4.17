@@ -2678,7 +2678,7 @@ function MarketView({ styleUrl }) {
         <div style={{ height:380, background:"rgba(255,255,255,0.97)", borderTop:`1px solid ${C.border}`, padding:"8px 12px", flexShrink:0, display:"flex", flexDirection:"column" }}>
           {/* Controls row */}
           <div style={{ display:"flex", alignItems:"center", gap:8, marginBottom:6, flexShrink:0, flexWrap:"wrap" }}>
-            <p style={{ margin:0, fontSize:11, fontWeight:700, color:C.slateM, textTransform:"uppercase", letterSpacing:"0.04em", whiteSpace:"nowrap" }}>H₂ investment pipeline</p>
+            <p style={{ margin:0, fontSize:11, fontWeight:700, color:C.slateM, textTransform:"uppercase", letterSpacing:"0.04em", whiteSpace:"nowrap" }}>H₂ investment pipeline by province</p>
             {/* View: Phase | Tech */}
             <div style={{ display:"flex", gap:4 }}>
               {[["phase","Phase funnel"],["tech","By technology"]].map(([v,l]) => (
